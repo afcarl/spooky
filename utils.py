@@ -1,6 +1,6 @@
 def preprocess(text):
     text = text.replace("' ", " ' ")
-    signs = set(',.:;"?')
+    signs = set(',.:;"!?')
     prods = set(text) & signs
     if not prods:
         return text
