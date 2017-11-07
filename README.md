@@ -3,16 +3,21 @@
 1. clone fastText from github
 2. run `sh create_unsupervised_fastText.sh`
 
-# 2. run `feature_create.ipynb`
+# 2. Run `feature_create.ipynb`
 
-Some naive bayes feature and unsupervised fasttext based feature training.
+Some naive bayes feature and logstic regression based on unsupervised fasttext embeddings.
 
 # 3. Download glove and word2vec pre-traiend model.
 
-- run `pre-trained-word-embeddings.ipynb` and `glove-logistic.ipynb`
+1. `preprocessing-pre-trained-word-embeddings`
+1. `pretrained-embeddings-logistic.ipynb`
 
 # 4. Trainined supervised fastText (two models!)
 
-# 5. xgboost
+# 5. Train LSTM
+
+skip
+
+# 6. xgboost
 
 run `xgboost.ipynb`

@@ -5,6 +5,6 @@ df = pd.read_csv('./data/train.csv')
 
 with open('./data/fasttext-inputs.txt', 'w') as f:
   for text in df.text:
-      f.write(' '.join(preprocess(text).lower().split()) + '\n')
+      f.write(' '.join(preprocess(text, single=True).split()) + '\n')
 
 print('Done!')
