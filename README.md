@@ -16,8 +16,6 @@ Some naive bayes feature and logstic regression based on unsupervised fasttext e
 
 # 5. Train LSTM
 
-skip
-
 # 6. xgboost
 
 run `xgboost.ipynb`
